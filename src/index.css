@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+
+  body {
+    @apply bg-white text-sm font-normal font-inter text-neutral-900 antialiased scroll-smooth sm:text-base;
+  }
+}
